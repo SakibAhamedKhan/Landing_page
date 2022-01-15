@@ -297,3 +297,36 @@ header>nav {
 	transform: scale(1.3);
 	transition: transform 1s ease-in-out;
 }
+
+/* Contact Section Styles */
+.contact {
+	background-color: blue;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.contact-title {
+	text-align: center;
+}
+
+.contact-info {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.contact-left img {
+	width: 550px;
+}
+
+.contact-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.contact-right[input="text"] {
+	background-color: #E83A59;
+}
