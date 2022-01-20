@@ -400,7 +400,7 @@ section {
 }
 
 .submit-btn {
-	width: 350px;
+	width: 400px;
 	margin-top: 10px;
 }
 
@@ -525,7 +525,10 @@ footer>p {
 		border-radius: 5px;
 	}
 
-
+	.submit-btn {
+		width: 350px;
+		margin-top: 10px;
+	}
 }
 
 
